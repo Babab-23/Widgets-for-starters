@@ -15,7 +15,7 @@ def display():
     text_box.inset(END,message)
     text_box.insert(END,date.today())
 text_box=Text(height=3)
-btn=Button(text="Begin",command=display,height=1,bg="orange",fg="black")
+btn=Button(text="Begin",command=+display,height=1,bg="orange",fg="black")
 Ibl.pack()
 name_Ibl.pack()
 name_entry.pack()
